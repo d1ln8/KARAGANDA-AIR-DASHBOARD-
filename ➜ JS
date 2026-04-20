@@ -1,0 +1,9 @@
+function winter() {
+  document.getElementById("seasonText").innerText =
+    "Winter: PM2.5 is 2–3x higher due to coal heating and temperature inversion.";
+}
+
+function summer() {
+  document.getElementById("seasonText").innerText =
+    "Summer: Pollution decreases but industrial emissions remain constant.";
+}
