@@ -1,0 +1,6 @@
+<div class="season-box">
+  <button onclick="winter()">Winter</button>
+  <button onclick="summer()">Summer</button>
+
+  <p id="seasonText"></p>
+</div>
