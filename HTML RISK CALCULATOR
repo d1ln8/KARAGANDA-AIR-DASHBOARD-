@@ -1,0 +1,5 @@
+<div>
+  <h2>Health Risk Level</h2>
+  <button onclick="risk()">Check Risk</button>
+  <p id="risk"></p>
+</div>
