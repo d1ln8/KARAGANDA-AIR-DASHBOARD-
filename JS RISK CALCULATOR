@@ -1,0 +1,11 @@
+function risk() {
+  let pm = 58;
+
+  if (pm > 50) {
+    document.getElementById("risk").innerText = "VERY HIGH RISK ⚠️";
+  } else if (pm > 25) {
+    document.getElementById("risk").innerText = "HIGH RISK ⚠️";
+  } else {
+    document.getElementById("risk").innerText = "MODERATE";
+  }
+}
