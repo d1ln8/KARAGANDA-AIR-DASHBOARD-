@@ -1,0 +1,17 @@
+async function getAirData() {
+  try {
+    const response = await fetch("https://api.waqi.info/feed/karaganda/?token=demo");
+    const data = await response.json();
+
+    console.log(data);
+
+    document.getElementById("pmValue").innerText =
+      data.data.aqi + " AQI";
+  } catch (error) {
+    // fallback data
+    document.getElementById("pmValue").innerText =
+      "58 µg/m³ (estimated)";
+  }
+}
+
+getAirData();
