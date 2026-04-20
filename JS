@@ -1,0 +1,13 @@
+const ctx = document.getElementById('pmChart');
+
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+    datasets: [{
+      label: "PM2.5 level (µg/m³)",
+      data: [45, 48, 50, 52, 55, 60, 63, 68, 70],
+      backgroundColor: "red"
+    }]
+  }
+});
