@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breathing in Karaganda</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Leaflet (map) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <h1>Breathing in Karaganda</h1>
+  <p>A data-driven investigation into air pollution in Kazakhstan’s industrial city</p>
+</header>
+
+<!-- INTRO -->
+<section class="section">
+  <h2>The Invisible Problem</h2>
+  <p>
+    Karaganda is one of Kazakhstan’s major industrial cities.
+    But behind economic development lies a long-term environmental issue:
+    air pollution.
+  </p>
+</section>
+
+<!-- DATA VISUAL 1: GRAPH -->
+<section class="section">
+  <h2>Rising Air Pollution (PM2.5 over time)</h2>
+  <p>
+    Fine particulate matter (PM2.5) has consistently exceeded WHO safe limits.
+  </p>
+
+  <canvas id="pmChart"></canvas>
+</section>
+
+<!-- DATA VISUAL 2: MAP -->
+<section class="section">
+  <h2>Where pollution comes from</h2>
+  <p>
+    Industrial zones and coal heating areas are the main sources of emissions.
+  </p>
+
+  <div id="map"></div>
+</section>
+
+<!-- CAUSES -->
+<section class="section">
+  <h2>Why is air pollution so high?</h2>
+
+  <ul>
+    <li>Coal-based heating systems in households</li>
+    <li>Industrial mining and metallurgy</li>
+    <li>Old infrastructure and emissions control limits</li>
+    <li>Winter temperature inversion trapping pollution</li>
+  </ul>
+</section>
+
+<!-- EXPERT QUOTE -->
+<section class="quote">
+  <p>
+    “Air pollution in Karaganda is not a short-term problem.
+    It is a structural issue connected to energy dependency on coal.”
+  </p>
+</section>
+
+<!-- RESIDENT EXPERIENCE -->
+<section class="section">
+  <h2>What residents feel</h2>
+  <p>
+    During winter, air becomes visibly heavier.
+    Many residents report difficulty breathing, irritation in eyes,
+    and reduced outdoor activity.
+  </p>
+</section>
+
+<!-- CONCLUSION -->
+<section class="section">
+  <h2>Conclusion</h2>
+  <p>
+    Karaganda’s air pollution reflects a deeper systemic challenge:
+    balancing industrial growth with environmental health.
+  </p>
+</section>
+
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
